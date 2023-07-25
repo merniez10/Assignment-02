@@ -16,7 +16,14 @@ nav {
     height: 20px;
     display:flex;
     margin: auto 0;
-    color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+    justify-content: space-between;
 }
 
 main {
@@ -24,7 +31,7 @@ main {
     flex-direction: column;
     width: 100%;
     background-color: rgb(190, 211, 226);
-    
+
 }
 
 section {
@@ -36,6 +43,14 @@ h2 {
     border-right: 5px solid black;
     margin-right: 10px;
     padding: 5px;
+}
+
+.left-container {
+    border-right: 5px solid black;
+    margin-right: 10px;
+    padding: 5px;
+    width: 20%;
+    text-align: right;
 }
 
 .about-text {
