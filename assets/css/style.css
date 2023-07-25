@@ -24,6 +24,10 @@ a {
     text-decoration: none;
     color:black;
     justify-content: space-between;
+    display: flex;
+    margin: 30px;
+    flex-wrap: wrap;
+    
 }
 
 main {
@@ -40,7 +44,6 @@ section {
 }
 
 h2 {
-    border-right: 5px solid black;
     margin-right: 10px;
     padding: 5px;
 }
@@ -76,9 +79,11 @@ h2 {
 .contact-links {
     display: flex;
     align-self: center;
+    justify-content: space-around;
 }
 
 #About-Me, #Work, #Contact-Me {
     display: flex;
     margin: 55px 0;
 }
+
