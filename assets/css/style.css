@@ -1,0 +1,69 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background-color: lightslategray; 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav {
+    height: 20px;
+    display:flex;
+    margin: auto 0;
+    color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(190, 211, 226);
+    
+}
+
+section {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+h2 {
+    border-right: 5px solid black;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.about-text {
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+}
+
+.about-text p {
+    height: 50%;
+    margin: auto 0;
+}
+
+.jumbotron{
+    height: 100;
+    width: 100%
+}
+
+#contact-me {
+    display:flex;
+}
+
+.contact-links {
+    display: flex;
+    align-self: center;
+}
+
+#About-Me, #Work, #Contact-Me {
+    display: flex;
+    margin: 55px 0;
+}
