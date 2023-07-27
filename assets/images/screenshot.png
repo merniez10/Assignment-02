@@ -36,21 +36,7 @@
                     <h2>Work</h2> 
                 </div>
                 <div class="project-container">
-                    <div class="project-work" id="project-1"><a href= "https://merniez10.github.io/Code-Refactor/"><img src= "./assets/images/duck.jpeg"></a>
-                    <section><a href="https://github.com/merniez10/Code-Refactor">Code refactor</a></section>
-                    </div>
-                    <div class="project-work"><a href= "https://merniez10.github.io/Code-Refactor/"><img src= "./assets/images/duck.jpeg"></a>
-                        <section><a href="https://github.com/merniez10/Code-Refactor">Code refactor</a></section>
-                    </div>
-                        <div class="project-work"><a href= "https://merniez10.github.io/Code-Refactor/"><img src= "./assets/images/duck.jpeg"></a>
-                            <section><a href="https://github.com/merniez10/Code-Refactor">Code refactor</a></section>
-                    </div>
-                    <div class="project-work"><a href= "https://merniez10.github.io/Code-Refactor/"><img src= "./assets/images/duck.jpeg"></a>
-                            <section><a href="https://github.com/merniez10/Code-Refactor">Code refactor</a></section>
-                    </div>
-                        <div class="project-work"><a href= "https://merniez10.github.io/Code-Refactor/"><img src= "./assets/images/duck.jpeg"></a>
-                                <section><a href="https://github.com/merniez10/Code-Refactor">Code refactor</a></section>
-                                </div>
+                    <div class="project-1"></div>
                     <div class="project-2"></div>
                     <div class="project-3"></div>
                     <div class="project-4"></div>

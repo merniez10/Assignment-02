@@ -14,13 +14,13 @@ header {
 
 nav {
     height: 20px;
-    display:flex;
+    display: flex;
     margin: auto 0;
     justify-content: space-between;
     align-items: center;
 }
 
-a {
+nav a {
     text-decoration: none;
     color:black;
     justify-content: space-between;
@@ -62,14 +62,30 @@ h2 {
     flex-wrap: wrap;
 }
 
+.about-text img {
+    height: 200px;
+    width: 200px; 
+}
+
 .about-text p {
-    height: 50%;
-    margin: auto 0;
+    /* height: 50%;
+    margin: auto 0; */
+    margin: 1%;
+    padding:1%;
+    max-width: 50%;
 }
 
 .jumbotron{
     height: 100;
     width: 100%
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    width: 73%;
+    list-style-type: none;
 }
 
 #contact-me {
@@ -78,12 +94,60 @@ h2 {
 
 .contact-links {
     display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    /* align-self: center; */
+    /* justify-content: space-around; */
+    width: 73%;
+    /* padding: 0 25px 0 25px; */
+    margin-left: auto;
+}
+
+address {
+    display: flex;
+    justify-content: space-between;
     align-self: center;
-    justify-content: space-around;
+    margin-right: 10%;
+    align-self: center;
+    width: 80%;
+    padding: 0 25px 0 25px;
+    text-align: center;
 }
 
 #About-Me, #Work, #Contact-Me {
     display: flex;
     margin: 55px 0;
+    flex-direction: row;
 }
 
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 3%;
+}
+
+.project-work {
+    width: 45%;
+    max-width: 47%;
+    position: relative;
+    border: 5px solid black;
+    margin: 1%;
+    padding: 1%;
+}
+
+.project-work section{
+    position: absolute;
+    background-color: antiquewhite;
+    letter-spacing: 2px;
+    bottom: 10px;
+}
+.project-work a img{
+    width:100%;
+}
+
+#project-1{
+    width:95%;
+    max-width: 97%;
+}
